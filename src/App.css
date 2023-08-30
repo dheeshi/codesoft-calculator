@@ -1,0 +1,90 @@
+#app {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.calculator {
+  border: 2px solid #47476b;
+  padding: 5px;
+  background: black;
+  width: 320px;
+  position: relative;
+}
+
+
+#display {
+  height: 100px;
+  width: 100%;
+  margin-bottom: 10px;
+  padding: 0 10px;
+  background-color: #7385942d;
+  border-radius: 10px;
+  display: flex;
+  justify-content: flex-end;
+  color: white;
+  text-align: right;
+  font-size: 29px;
+  font-family: sans-serif;
+  line-height: 35px;
+  font-weight: bold;
+  box-sizing: border-box;
+}
+
+.button {
+  position: relative;
+  height: 65px;
+  width: 80px;
+  color: white;
+  outline: 1px solid black;
+  border: none;
+  background: #4d4d4d;
+  font-family: Share Tech Mono, monospace;
+  font-size: 20px;
+  cursor: default;
+}
+
+.button:hover {
+  background-color: rgb(61, 43, 184);
+}
+
+#zero {
+  width: 160px;
+}
+
+#equals {
+  position: absolute;
+  bottom: 5px;
+  height: 130px;
+  background-color: rgb(243, 61, 29);
+}
+
+#equals:hover {
+  background-color: rgba(209, 43, 21);
+}
+
+
+#clear {
+  background-color: rgb(243, 61, 29);
+}
+
+#clear:hover {
+  background-color: rgba(209, 43, 21);
+}
+
+
+#delete {
+  background-color: #4d4d4d;
+}
+
+#delete:hover {
+  background-color: rgba(209, 43, 21);
+}
+
+
+.author {
+  text-align: center;
+  font-family: 'Courier New', Courier, monospace;
+  margin-top: 15px;
+}
